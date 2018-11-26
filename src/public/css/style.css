@@ -1,0 +1,620 @@
+@media (min-width: 768px){
+    .container{
+        max-width:100%;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        max-width:100%;
+    }
+}
+
+@media print {
+    @page { margin: 0; }
+    body { margin: 1.6cm;
+
+    background:#fff;
+
+    }
+}
+
+hr{
+    border:none!important;
+    padding: 0 0 5px 0;
+}
+
+.rdg-cell-action-button {
+    width: 40px!important;
+}
+
+.rdg-cell-action-button>span {
+    /*background:white !important;*/
+}
+
+.display{
+    z-index: 2;
+    background-color: #ffffff;
+    /*height:99vh;*/
+    width: 100%;
+    color: black;
+    padding: 1% 0 0 2%;
+    overflow: auto;
+}
+
+.content{
+    width:98%;
+}
+
+.div-login-style{
+    background-color: rgba(255,255,255, 0.7);
+    width: 500px;
+    padding: 3%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 7%!important;
+    font-size: 15px;
+    border-radius: 25px;
+    color: black;
+}
+
+.div-login-style h1{
+    text-align:center;
+
+}
+
+.div-menu-header{
+    width:100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    padding: 1% 1% 0 0;
+}
+
+.emptyPreview {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 15%;
+    padding:40px;
+    color: #DB5461;
+    background: #ECECEC;
+
+}
+.menu-header{
+    flex-grow: 1;
+    font-size:40px;
+    text-transform: capitalize;
+}
+
+.sub_menu-header{
+    flex-grow: 1;
+    font-size:20px;
+    text-transform: capitalize;
+}
+
+.add-button{
+    background-color: #F7D002!important;
+    color: white!important;
+    text-transform: initial!important;
+}
+
+.update-button{
+    background-color: #4CAF50!important;
+    color: white!important;
+    text-transform: initial!important;
+}
+
+.generate-button{
+    background-color: #CD533B!important;
+    color: white!important;
+    text-transform: initial!important;
+}
+
+.breadcrumb{
+    margin: 0px !important;
+    font-size:16px!important;
+    padding: 0px!important;
+}
+
+.breadcrumb li {
+    display: inline; list-style-type: none; margin-left: 0;
+}
+.breadcrumb li:before {
+    content: ">"!important;
+    padding-right: 3px;
+    font-weight: bolder;
+}
+.breadcrumb li:first-child:before {
+    content: "" !important;
+    padding-right: 0;
+}
+
+.searchIcon{
+    background-color: white;
+}
+
+.add-button-table{
+    background-color: #313131!important;
+    color: white!important;
+    text-transform: initial!important;
+    height:15px!important;
+    min-width: 5px;
+    width: 5px;
+}
+
+/*Overwrite react data grid style*/
+
+.react-grid-HeaderCell{
+    background-color: #fff!important;
+    color: black!important;;
+    font-weight: bold;
+    display: inline-block!important;
+    position: absolute;!important;
+    /*border:none!important;*/
+    overflow: none!important;
+}
+.react-grid-Cell{
+    overflow: none!important;
+    /*border:none!important;*/
+    background: transparent!important;
+}
+
+.react-grid-Row--even{
+    background-color: #E6E9EA!important;
+}
+
+div.react-grid-HeaderCell .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    max-width : 100%;
+    border : 1px solid #ddd;
+}
+
+div.react-grid-HeaderCell:hover
+{
+    z-index:9999;
+    overflow:visible;
+}
+
+div.react-grid-HeaderCell:hover input:not(.Select-input)
+{
+    max-width: 250px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.react-grid-HeaderCell div.input-sm
+{
+    display : none;
+}
+
+div.react-grid-HeaderCell:hover .Select div.Select-Value
+{
+    clear:both;
+}
+
+div.react-grid-HeaderCell .Select-control
+{
+    width: 100%;
+}
+
+div.react-grid-HeaderCell:hover .Select .Select-control,
+div.react-grid-HeaderCell:hover .Select .Select-menu-outer
+{
+    width: max-content;
+    min-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.react-grid-HeaderCell:hover .Select .Select-control .Select-value
+{
+    float: left;
+    clear: left;
+    margin-right : 20px;
+}
+
+div.react-grid-HeaderCell:hover .Select .Select-multi-value-wrapper
+{
+    padding : 5px;
+    padding-top : 40px;
+}
+
+div.react-grid-HeaderCell:hover .Select div.Select-input
+{
+    position : absolute;
+    left : 0;
+    width:max-content;
+    min-width : 220px;
+    margin-top : -35px;
+    margin-right : 20px;
+    border : 1px solid #ddd;
+    padding-right: 5px;
+}
+
+div.react-grid-HeaderCell:hover .Select--multi .Select-arrow-zone,
+div.react-grid-HeaderCell:hover .Select--multi .Select-clear-zone
+{
+    margin-left: 5px;
+    position : absolute;
+}
+
+div.react-grid-HeaderCell:hover .Select--multi .Select-arrow-zone
+{
+    right : -3px;
+    top : 7px;
+}
+
+div.react-grid-HeaderCell:hover .Select--multi .Select-clear-zone
+{
+    right : 3px;
+    bottom : 3px;
+}
+
+div.react-grid-HeaderCell:hover .Select--multi .Select-control .Select-value
+{
+    max-height : 22px;
+}
+/* END Overwrite react data grid style*/
+
+
+.stepper svg {
+    fill: lightgray;
+    width: 15px !important;
+    height:15px !important;
+}
+
+.progress-style{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    padding-top:10%;
+
+}
+
+/*new*/
+
+.inputLabel{
+    padding-top: 15px !important;
+}
+.inputInput{
+    padding-top: 15px !important;
+}
+
+.tab-container{
+    margin-top: 5px;
+}
+.form-preview{
+    overflow-y: scroll;
+    height:70vh;
+    padding:10px;
+}
+
+.form-client{
+    overflow-y: scroll;
+    height:60vh;
+    margin-top:20px;
+    padding:0 20px 0 10px;
+}
+
+.form-generate{
+    height:70vh;
+    margin-top:20px;
+    padding:0 20px 0 10px;
+}
+
+.holder {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.template-generate{
+    height:70vh;
+    margin-top:20px;
+    width:100%;
+    padding:0 20px 0 10px;
+}
+
+.template-search{
+    border-radius: 4px;
+    border: 1px solid #B9B6BA;
+    width: 100%;
+    outline: none;
+
+}
+
+.templateList{
+    border-bottom:1px solid #CDCACF;
+}
+
+.form-toolbox{
+
+    /*border-left: 1px dotted grey;*/
+    height:70vh;
+    padding:10px;
+    margin-top:15px;
+    overflow-y: auto;
+}
+
+
+.form-toolbox-buttons{
+    margin: 8% 3% 0 3%!important;
+}
+.toolbox-button{
+    width:150px!important;
+    padding-bottom:5px;
+    margin: 18px 15px!important;
+    background:#61829F!important;
+    color:white!important;
+    cursor: move;
+
+}
+
+.toolbox-helper-button{
+    width:150px!important;
+    padding-bottom:5px;
+    margin: 18px 15px!important;
+    background:#8CA4B9!important;
+    color:white!important;
+    cursor: move;
+}
+
+.form-toolbox-settings{
+    margin-top:5%!important;
+}
+.toolbox-side-button-group{
+    margin-left:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbox-side-button{
+    min-width:35px!important;
+    margin-top:5%!important;
+    color:red!important;
+    padding: 10px 10px!important;
+
+}
+
+.formEditable{
+    /*!*padding:10px;*!*/
+    /*margin-bottom:1%!important;*/
+    /*//border: 1px dotted grey;*/
+}
+
+.inputLabel{
+    font-size: 20px!important;
+}
+
+.helper-box{
+    left: 9%;
+    position: absolute;
+    top: 40%;
+    width: 300px;
+    height: auto;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1);
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    z-index: 99;
+    padding: 11px;
+}
+
+.helper-button{
+    margin-top: 10px!important;
+    font-size: 12px!important;
+
+}
+
+/*WTYIWYG editor css*/
+
+.rdw-image-alignment {
+    /* float: left; */
+    margin-right: 10px!important;
+
+    position: relative;
+}
+
+.rdw-image-right {
+    float: right;
+    display: block;
+    /* justify-content: flex-end; */
+}
+
+.rdw-image-left {
+    float: left;
+    display: block;
+    /* justify-content: flex-end; */
+}
+
+.rdw-image-center {
+
+    display: block;
+    /* justify-content: flex-end; */
+}
+
+.rdw-image-alignment {
+    /* float: left; */
+    margin-right: 10px!important;
+
+    position: relative;
+}
+
+   .rdw-center-aligned-block > .public-DraftStyleDefault-block > span {
+       text-align: center;
+       /*width: 100%;*/
+       display: block;
+   }
+
+.rdw-right-aligned-block > .public-DraftStyleDefault-block > span {
+    text-align: right;
+    /*width: 100%;*/
+    display: block;
+}
+.rdw-right-aligned-block {
+    text-align: right;
+    float: right;
+    display: block;
+}
+.rdw-right-aligned-left {
+    text-align: left;
+    float: left;
+    display: block;
+}
+.rdw-right-aligned-center {
+    text-align: center;
+    /*width: 100%;*/
+    display: block;
+}
+
+
+mypagebreak{
+    margin: 10px 0 0 0;
+    padding: 10px 0;
+    border-top: 1px dotted #c5c5c5;
+}
+
+/* Style toolbox btn */
+
+.toolboxBtn{
+    min-height:35px!important;
+    min-width:35px!important;
+    padding:0px!important;
+    margin-left:8px!important;
+}
+
+.toolboxSelect{
+    border:1px solid black;
+    margin-left:8px!important;
+    padding:0 5px!important;
+}
+
+.toolboxSelectInner {
+    height: 6px!important;
+    font-size: 15px!important;
+
+}
+
+.toolboxBtn-wrapper {
+    text-align: left;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    z-index: 99;
+    margin-bottom: 0.5% !important;
+    /* position: absolute; */
+    padding: 10px !important;
+    padding-top: 15px !important;
+    /* justify-content: center!important; */
+}
+
+.toolboxBtn-AddOn{
+    float:right;
+}
+
+.form-editor-background{
+    padding-Top: 3%!important;
+    background-color: #F3F4F3!important;
+    padding-bottom: 3%;
+}
+.form-editor {
+    width:70%;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: text;
+    padding: 16px;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    background: #fefefe;
+}
+
+.public-DraftEditor-content {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm;
+    margin: 10mm auto;
+    /* border: 1px solid #d3d3d3; */
+    /* border-radius: 5px; */
+    background: #fff;
+    /* -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1); */
+    /* box-shadow: 0 0 5px rgba(0,0,0,.1); */
+    overflow-y: auto;
+}
+
+.editor {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: text;
+    padding: 16px;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    background: #fefefe;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+    height:800px;
+}
+
+.editor :global(.public-DraftEditor-content) {
+    min-height: 140px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.draftJsEmojiPlugin__buttonWrapper__1Dmqh {
+    display: inline-block;
+}
+
+.draftJsEmojiPlugin__alignmentTool__2mkQr{
+    position: absolute;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px 0px rgba(220,220,220,1);
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+element.style{
+    transform: translate(-50%) scale(1);
+    top: 276.328px;
+    left: 314.727px;
+    transition: transform 0.15s cubic-bezier(0.3, 1.2, 0.2, 1) 0s;
+}
+
+.search-and-replace-highlight{
+    background:yellow;
+}
+
+.public-PDF-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 297mm;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background: #F3F4F3;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1);
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    margin-bottom:2%;
+
+}
+
+canvas {
+    margin:10px;
+    border: 1px solid #d3d3d3;
+    overflow-x: scroll;
+}
+
+
+
